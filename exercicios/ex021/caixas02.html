@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouuping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.315);
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(124, 122, 122);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.507);
+            margin: 5px;
+        }
+
+        nav > ul {
+            margin: 2px;
+        }
+        nav > ul > li{
+            display: inline-block;
+            margin-top: auto;
+            margin-right: 30px;
+        }
+        
+        nav > ul > li > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav >  ul > li > a:hover{
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+            text-align: center;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px 10px;
+        }
+        article > aside {
+            background-color: rgb(170, 170, 170);
+            padding-left: 10px;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Políticas e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eos rerum iure tenetur quibusdam ab beatae animi, reprehenderit porro facilis molestias repellendus perferendis, fugit voluptas pariatur quam? Quas, blanditiis inventore.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desonvolvido pelo Goiaba®</p>
+    </footer>
+</body>
+</html>
