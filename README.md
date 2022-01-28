@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.
 
-<a href ="https://pedroccorrea.github.io/htm-css/desafios/d010v2/index.html">Executar desafio<a>
+<a href ="https://pedroccorrea.github.io/htm-css/tree/main/desafios/d010v2">Executar desafio<a>
