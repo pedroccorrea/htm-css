@@ -1,0 +1,6 @@
+Shorthand - background
+	color > image > position > repeat > attachment
+	background-size
+	exemplo:
+		background: black url('imagens/wallpaper002.jpg) center center no repeat  fixed;
+		background-seize:  cover;
