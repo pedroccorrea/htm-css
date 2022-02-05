@@ -1,0 +1,7 @@
+body {
+    background: black url('imagens/espaco.jpg') no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    margin: auto;
+    height: 98vh;
+}
