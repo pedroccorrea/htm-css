@@ -32,3 +32,27 @@ header p {
 article {
     font-family: 'Sriracha', cursive;
 }
+
+article #normal {
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+article #joaninha {
+    height: 620px;
+    background: black url('imagens/background001.jpg') center right no-repeat fixed;
+    background-size: cover;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+#txt {
+    color: white;
+    font-size: 2em;
+    width: 375px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding-left: 2px;
+}
