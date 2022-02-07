@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
@@ -60,6 +60,9 @@ article #joaninha {
     padding-top: 70px;
     padding-left: 30px;
     box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+}
+#joaninha > p {
+    text-shadow: 1px 1px 0px black;
 }
 
 .txt {
