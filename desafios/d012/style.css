@@ -28,15 +28,27 @@ header h1 {
 header p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+main {
+    line-height: 4.5em;
+}
 
 article {
     font-family: 'Sriracha', cursive;
 }
 
-article #normal {
+article .normal {
     font-size: 2em;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 30px;
 }
 
 article #joaninha {
@@ -45,9 +57,10 @@ article #joaninha {
     background-size: cover;
     padding-top: 70px;
     padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 }
 
-#txt {
+.txt {
     color: white;
     font-size: 2em;
     width: 375px;
@@ -55,4 +68,21 @@ article #joaninha {
     padding-bottom: 10px;
     background-color: rgba(0, 0, 0, 0.705);
     padding-left: 2px;
+}
+
+article #livro {
+    height: 620px;
+    background: black url('imagens/background002.jpg') center right no-repeat fixed;
+    background-size: cover;
+    padding-top: 70px;
+    padding-left: 30px;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
